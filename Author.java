@@ -19,5 +19,8 @@ public class Author {
   public String getBiography() {
   return null;
   }
+  public String getBiographys() {
+    return null;
+    }
 
 }
