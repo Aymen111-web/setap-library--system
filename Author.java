@@ -22,5 +22,8 @@ public class Author {
   public String getBiographys() {
     return null;
     }
+    public String getBiographyds() {
+      return null;
+      }
 
 }
