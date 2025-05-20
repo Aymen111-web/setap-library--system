@@ -4,7 +4,6 @@ public class Member {
 
   private String name;
   private String LastName;
-  LastName = muhammed;
 
   private integer memberId;
 
@@ -18,8 +17,12 @@ public class Member {
   return null;
   }
 
+  public String getLastName() {
+  return null;
+  }
+
   public int getMemberId() {
   return 0;
   }
-
+  
 }
