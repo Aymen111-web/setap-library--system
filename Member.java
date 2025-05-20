@@ -3,6 +3,8 @@ import java.util.Vector;
 public class Member {
 
   private String name;
+  private String LastName;
+  LastName = muhammed;
 
   private integer memberId;
 
