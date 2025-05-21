@@ -28,6 +28,10 @@ public class Member {
     return name;
   }
 
+  public String getNewName() {
+    return name;
+  }
+
   public int getMemberId() {
     return memberId;
   }
