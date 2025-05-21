@@ -16,8 +16,22 @@ public class Author {
   return null;
   }
 
+  public String getNamed() {
+  return null;
+  }
+
+  public String getNameed() {
+  return null;
+  }
+
   public String getBiography() {
   return null;
   }
+  public String getBiographys() {
+    return null;
+    }
+    public String getBiographyds() {
+      return null;
+      }
 
 }
