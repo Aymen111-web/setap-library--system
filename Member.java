@@ -2,21 +2,38 @@ import java.util.Vector;
 
 public class Member {
 
-    private String name;
-    private String lastName; // added
-    private int memberId;
-    private Vector<Loan> myLoan; // generic
+  private String name;
+  private int memberId; // Fixed typo: integer -> int
 
-    public String getName() {
-        return name;
+  /**
+   * 
+   * @element-type Loan
+   */
+  public Vector myLoan;
+
+  // Constructor with validation
+  public Member(String name, int memberId) {
+    if (name == null || name.trim().isEmpty()) {
+      throw new IllegalArgumentException("Name cannot be empty.");
     }
-
-    public String getLastName() {
-        return lastName;
+    if (memberId <= 0) {
+      throw new IllegalArgumentException("Member ID must be positive.");
     }
+    this.name = name;
+    this.memberId = memberId;
+    this.myLoan = new Vector();
+  }
 
-    public int getMemberId() {
-        return memberId;
-    }
+  public String getName() {
+    return name;
+  }
 
-    // Optionally remove getMemberId1()
+  public String getFurkanName() {
+    return null;
+  }
+
+  public int getMemberId() {
+    return memberId;
+  }
+
+}
