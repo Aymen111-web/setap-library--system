@@ -2,29 +2,21 @@ import java.util.Vector;
 
 public class Member {
 
-  private String name;
+    private String name;
+    private String lastName; // added
+    private int memberId;
+    private Vector<Loan> myLoan; // generic
 
-  private int memberId; // Fixed typo: integer -> int
-    /**
-   * 
-   * @element-type Loan
-   */
-  public Vector  myLoan;
+    public String getName() {
+        return name;
+    }
 
-  public String getName() {
-  return null;
-  }
+    public String getLastName() {
+        return lastName;
+    }
 
-  public String getLastName() {
-  return null;
-  }
+    public int getMemberId() {
+        return memberId;
+    }
 
-  public int getMemberId() {
-  return 0;
-  }
-
-  public int getMemberId1() {
-  return 0;
-  }
-  
-}
+    // Optionally remove getMemberId1()
