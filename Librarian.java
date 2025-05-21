@@ -11,5 +11,7 @@ public class Librarian {
   }
   public void addAuthor(Author a) {
   }
+  public void addAuthors(Author a) {
+  }
 
 }
