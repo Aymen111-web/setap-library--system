@@ -22,8 +22,7 @@ This project demonstrates Git workflow for a Java library management system.
 3. Developed loan functionality in the branch
 4. Pushed branch: git push -u origin LoanManagement
 5. Created PR on GitHub
-6. After review, merged PR into main
-7. Synced local main with git pull origin main
+
 
 ## Loan Features
 
